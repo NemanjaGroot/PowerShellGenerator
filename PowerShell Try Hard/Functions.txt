@@ -1,0 +1,17 @@
+function Pname {
+    param (
+        # Project Name Mandatory
+        [Parameter(Mandatory)]
+        [string]$pname
+    )
+    Read-Host -Prompt 'Please enter Project Name:'
+}
+
+function Sname {
+    param (
+         # Solution Name Mandatory
+         [Parameter(Mandatory)]
+         [string]$sname
+    )
+    Read-Host -Prompt 'Please enter Project Name:'
+}
